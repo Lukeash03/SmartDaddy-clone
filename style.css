@@ -1,0 +1,306 @@
+@font-face {
+    font-family: Gilroy-Light;
+    src: url('font/Gilroy-FREE/Gilroy-Light.otf');
+    font-family: Gilroy-Medium;
+    src: url('font/Gilroy-FREE/Gilroy-Medium.ttf');
+    font-family: Gilroy-Regular;
+    src: url('font/Gilroy-FREE/Gilroy-Regular.ttf');
+}
+.container{
+    display: flex;
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+.main-list{
+    display: flex;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+.btn{
+    padding: 8px 26px;
+}
+.heading-sect{
+    background-color: #F2F8FD;
+}
+.left-box{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.right-box{
+    width: 50%;
+}
+.content{
+    width: 85%;
+}
+@font-face {    
+    font-family: Gilroy-Bold;
+    src: url('font/Gilroy-FREE/Gilroy-Bold.ttf');
+}
+.content h1{
+    font-family: Gilroy-Bold;
+    font-size: 48px;
+    font-weight: lighter;
+
+}
+.content p{
+    font-family: Gilroy-Regular, Sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 24px;
+}
+.download-button{
+    padding-bottom: 30px;
+}
+.download-appstore img, .download-playstore img{
+    height: 50px;
+}
+.video-button img{
+    padding-right: 10px;
+    width: 50px;
+}
+.video-button span{
+    padding-left: 5px;
+    font-size: 18px;
+    color: #000;
+    transition: color 0.3s;
+}
+
+.video-button span:hover{
+    color: #4182ff;
+}
+.prefeature-download-section{
+    padding-top: 51px;
+}
+.prefeature-download-section{
+    display: flex;
+    justify-content: center;
+}
+.prefeature-download-section h2{
+    font-size: 39px;
+    color: #20A4DD;
+}
+.prefeature-content{
+    margin: 80px 0;
+}
+.prefeature-button{
+    margin-bottom: 20px;
+}
+.prefeature-button a{
+    background-color: #00C9A726;
+    color: #00C9A7;
+    text-decoration: none;
+    padding: 6px 16px 8px;
+}
+.prefeature-heading{
+    margin-bottom: 20px;
+}
+.prefeature-heading h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.prefeature-description{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 70%;
+}
+.prefeature-description p{
+    font-family: Gilroy-Regular, Sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 24px;
+}
+.feature-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+}
+.feature-2{
+    display: flex;
+    justify-content: space-between;
+}
+.feature-content{
+    width: 40%;
+}
+.feature-content h3{
+    font-size: 24px;
+    color: #3a453d;
+}
+.feature-content p{
+    font-family: Gilroy-Regular, Sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+} 
+.feature-img{
+    width: 40%
+}
+.tracking-section{
+    height: auto;
+    background-color: #F2F8FD;
+    padding: 10px 0;
+}
+
+/* Three features section */
+.each-feature{
+    width: 33%;
+}
+.each-feature h3{
+    color: #3a453d;
+}
+.each-feature p{
+    font-family: Gilroy-Regular, Sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+.each-feature svg{
+    width: 74px;
+}
+.feature-icon{
+    height: 125px;
+}
+.installation-step-heading{
+    color: #4182FF;
+    font-family: Gilroy-Bold;
+    font-size: 1.5rem;
+}
+.installation-step-description{
+    font-family: Gilroy-Regular;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+.setup-video{
+    width: 50%;
+}
+.setup-instructions{
+    width: 50%;
+}
+.video-wrapper{
+    align-content: center;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.video-wrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85%;
+    height: 100%;
+}
+.footer{
+    background-color: #f2f8fd;
+    font-family: Gilroy-Regular;
+}
+.footer h6{
+    font-family: Gilroy-Bold;
+}
+.social-profile{
+    display: inline-flex;
+}
+
+@media (max-width: 767px) {
+    .main-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        width: 100%;
+    }
+    .left-box{
+        width: 100%;
+    }
+    .right-box{
+        width: 100%;
+    }
+    .content-heading h1{
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .video-button{
+        display: flex;
+        justify-content: center;
+    }
+    .feature-1{
+        flex-direction: column;
+    }
+    .feature-2{
+        flex-direction: column-reverse;
+    }
+    .feature-content{
+        width: 100%;
+    }
+    .feature-img{
+        width: 100%;
+    }
+    .footer-list-parent{
+        flex-direction: column;
+    }
+}
+@media (max-width: 992px){
+    .nav-link{
+        padding: 12px 0;
+        font-size: 18px;
+        color: #3a453d;
+        border-bottom: 1px solid #e2e2e2;
+    }
+    .menu-button{
+        margin-top: 80px;
+    }
+    .prefeature-heading h2{
+        font-size: 38px;
+    }
+    .prefeature-description{
+        width: 100%;
+    }
+}
+@media (max-width: 1024px){
+    .prefeature-description{
+        width: 90%;
+    }
+    .three-features{
+        flex-direction: column;
+    }
+    .each-feature{
+        width: 100%;
+    }
+    .installation-step{
+        display: flex;
+        flex-direction: column;
+    }
+    .setup-video{
+        width: auto;
+    }
+    .video-wrapper iframe{
+        padding-left: 15%;
+        display: block;
+        margin: auto;
+    }
+    .setup-instructions{
+        width: 100%;
+        margin-top: 50px;
+    }    
+    .main-section{
+        padding: 15px;
+    }
+    .content{
+        padding-bottom: 15px;
+    }
+    .content-heading h1{
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .content-description p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
